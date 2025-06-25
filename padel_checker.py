@@ -17,8 +17,8 @@ WAIT_SECONDS = 5
 HEADLESS = True
 DAYS_TO_CHECK = ["Friday", "Saturday", "Sunday"]
 
-TELEGRAM_BOT_TOKEN = "7073161001:AAFuL-mNjm-hFhwuGKRVwxavWbFTV1cX9xM"
-TELEGRAM_CHAT_ID = "-4687945915"
+TELEGRAM_BOT_TOKEN = "**********"
+TELEGRAM_CHAT_ID = "********"
 
 def send_telegram_message(message: str):
     url = f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/sendMessage"
